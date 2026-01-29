@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "version": "1.0",
+    "created": "2026-01-12",
+    "phase": "lean_bulk",
+    "daily_targets": {
+      "calories": 2900,
+      "protein_g": 185,
+      "carbs_g": 350,
+      "fats_g": 80
+    }
+  },
+  "food_database": {
+    "chicken_breast": {
+      "name": "Chicken Breast",
+      "serving_size_g": 200,
+      "calories": 220,
+      "protein_g": 46,
+      "carbs_g": 0,
+      "fats_g": 4
+    },
+    "ground_beef_85_15": {
+      "name": "Ground Beef (85/15)",
+      "serving_size_g": 200,
+      "calories": 430,
+      "protein_g": 40,
+      "carbs_g": 0,
+      "fats_g": 30
+    },
+    "whole_eggs": {
+      "name": "Whole Eggs",
+      "serving_size_g": 50,
+      "serving_unit": "1 large",
+      "calories": 70,
+      "protein_g": 6,
+      "carbs_g": 0,
+      "fats_g": 5
+    },
+    "white_rice_cooked": {
+      "name": "White Sticky Rice (cooked)",
+      "serving_size_g": 200,
+      "calories": 260,
+      "protein_g": 4,
+      "carbs_g": 45,
+      "fats_g": 0
+    },
+    "potato": {
+      "name": "Potato",
+      "serving_size_g": 200,
+      "calories": 155,
+      "protein_g": 4,
+      "carbs_g": 35,
+      "fats_g": 0
+    },
+    "greek_yogurt": {
+      "name": "Greek Yogurt (Costco Protein)",
+      "serving_size_g": 300,
+      "calories": 200,
+      "protein_g": 30,
+      "carbs_g": 18,
+      "fats_g": 0
+    },
+    "cottage_cheese": {
+      "name": "Cottage Cheese",
+      "serving_size_g": 250,
+      "calories": 230,
+      "protein_g": 28,
+      "carbs_g": 8,
+      "fats_g": 10
+    },
+    "bread": {
+      "name": "Bread",
+      "serving_size_g": 60,
+      "serving_unit": "2 slices",
+      "calories": 140,
+      "protein_g": 6,
+      "carbs_g": 25,
+      "fats_g": 2
+    },
+    "apple": {
+      "name": "Apple",
+      "serving_size_g": 180,
+      "serving_unit": "1 medium",
+      "calories": 95,
+      "protein_g": 0,
+      "carbs_g": 25,
+      "fats_g": 0
+    },
+    "whey_with_milk": {
+      "name": "Whey Protein + Milk (250ml)",
+      "serving_size_g": 280,
+      "serving_unit": "1 scoop + 250ml milk",
+      "calories": 210,
+      "protein_g": 32,
+      "carbs_g": 12,
+      "fats_g": 4
+    },
+    "broccoli": {
+      "name": "Broccoli",
+      "serving_size_g": 150,
+      "calories": 50,
+      "protein_g": 4,
+      "carbs_g": 10,
+      "fats_g": 0
+    },
+    "milk": {
+      "name": "Milk (2%)",
+      "serving_size_g": 250,
+      "serving_unit": "250ml",
+      "calories": 120,
+      "protein_g": 8,
+      "carbs_g": 12,
+      "fats_g": 5
+    }
+  },
+  "schedules": {
+    "weekday": {
+      "name": "Weekday Schedule",
+      "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+      "notes": "Early morning workout (6:15 AM start)",
+      "meals": [
+        {
+          "meal_number": 1,
+          "name": "Pre-Workout Breakfast",
+          "time": "06:15",
+          "foods": [
+            { "food_id": "whole_eggs", "quantity": 2, "display": "2 whole eggs (scrambled)" },
+            { "food_id": "bread", "quantity": 1, "display": "2 slices toast" },
+            { "food_id": "apple", "quantity": 1, "display": "1 apple" },
+            { "food_id": "whey_with_milk", "quantity": 1, "display": "1 scoop whey + 250ml milk" }
+          ],
+          "macros": { "calories": 620, "protein": 45, "carbs": 55, "fats": 20 }
+        },
+        {
+          "meal_number": 2,
+          "name": "Post-Workout",
+          "time": "08:30",
+          "foods": [
+            { "food_id": "white_rice_cooked", "quantity": 1, "display": "200g white rice" },
+            { "food_id": "chicken_breast", "quantity": 1, "display": "200g chicken breast" },
+            { "food_id": "broccoli", "quantity": 1, "display": "150g broccoli" }
+          ],
+          "macros": { "calories": 580, "protein": 50, "carbs": 70, "fats": 6 }
+        },
+        {
+          "meal_number": 3,
+          "name": "Lunch",
+          "time": "11:30",
+          "foods": [
+            { "food_id": "ground_beef_85_15", "quantity": 1, "display": "200g ground beef" },
+            { "food_id": "potato", "quantity": 1, "display": "200g potato" },
+            { "food_id": "broccoli", "quantity": 1, "display": "150g broccoli" }
+          ],
+          "macros": { "calories": 650, "protein": 45, "carbs": 45, "fats": 30 }
+        },
+        {
+          "meal_number": 4,
+          "name": "Afternoon Snack",
+          "time": "14:30",
+          "foods": [
+            { "food_id": "greek_yogurt", "quantity": 1, "display": "300g Greek yogurt" },
+            { "food_id": "apple", "quantity": 1, "display": "1 apple" }
+          ],
+          "macros": { "calories": 320, "protein": 30, "carbs": 40, "fats": 4 }
+        },
+        {
+          "meal_number": 5,
+          "name": "Dinner",
+          "time": "17:30",
+          "foods": [
+            { "food_id": "chicken_breast", "quantity": 1, "display": "200g chicken breast" },
+            { "food_id": "white_rice_cooked", "quantity": 1, "display": "200g white rice" },
+            { "food_id": "broccoli", "quantity": 1, "display": "150g broccoli" }
+          ],
+          "macros": { "calories": 540, "protein": 48, "carbs": 70, "fats": 5 }
+        },
+        {
+          "meal_number": 6,
+          "name": "Before Bed",
+          "time": "20:00",
+          "foods": [
+            { "food_id": "cottage_cheese", "quantity": 1, "display": "250g cottage cheese" },
+            { "food_id": "whole_eggs", "quantity": 2, "display": "2 whole eggs (hard boiled)" }
+          ],
+          "macros": { "calories": 390, "protein": 42, "carbs": 10, "fats": 18 }
+        }
+      ],
+      "daily_totals": { "calories": 3100, "protein": 260, "carbs": 290, "fats": 83 }
+    },
+    "weekend": {
+      "name": "Weekend Schedule",
+      "days": ["saturday", "sunday"],
+      "notes": "Later workout (8:00 AM start), more time between meals",
+      "meals": [
+        {
+          "meal_number": 1,
+          "name": "Breakfast",
+          "time": "06:30",
+          "foods": [
+            { "food_id": "whole_eggs", "quantity": 4, "display": "4 whole eggs (scrambled)" },
+            { "food_id": "bread", "quantity": 1, "display": "2 slices toast" }
+          ],
+          "macros": { "calories": 450, "protein": 28, "carbs": 30, "fats": 24 }
+        },
+        {
+          "meal_number": 2,
+          "name": "Pre-Workout",
+          "time": "07:45",
+          "foods": [
+            { "food_id": "whey_with_milk", "quantity": 1, "display": "1 scoop whey + 250ml milk" },
+            { "food_id": "apple", "quantity": 1, "display": "1 apple" }
+          ],
+          "macros": { "calories": 300, "protein": 32, "carbs": 35, "fats": 5 }
+        },
+        {
+          "meal_number": 3,
+          "name": "Post-Workout",
+          "time": "10:30",
+          "foods": [
+            { "food_id": "chicken_breast", "quantity": 1, "display": "200g chicken breast" },
+            { "food_id": "white_rice_cooked", "quantity": 1.25, "display": "250g white rice" },
+            { "food_id": "broccoli", "quantity": 1, "display": "150g broccoli" }
+          ],
+          "macros": { "calories": 620, "protein": 50, "carbs": 85, "fats": 6 }
+        },
+        {
+          "meal_number": 4,
+          "name": "Lunch",
+          "time": "13:30",
+          "foods": [
+            { "food_id": "ground_beef_85_15", "quantity": 1, "display": "200g ground beef" },
+            { "food_id": "potato", "quantity": 1, "display": "200g potato" },
+            { "food_id": "broccoli", "quantity": 1, "display": "150g broccoli" }
+          ],
+          "macros": { "calories": 650, "protein": 45, "carbs": 45, "fats": 30 }
+        },
+        {
+          "meal_number": 5,
+          "name": "Afternoon Snack",
+          "time": "16:30",
+          "foods": [
+            { "food_id": "greek_yogurt", "quantity": 1, "display": "300g Greek yogurt" },
+            { "food_id": "apple", "quantity": 1, "display": "1 apple" }
+          ],
+          "macros": { "calories": 320, "protein": 30, "carbs": 40, "fats": 4 }
+        },
+        {
+          "meal_number": 6,
+          "name": "Dinner",
+          "time": "19:30",
+          "foods": [
+            { "food_id": "chicken_breast", "quantity": 1, "display": "200g chicken breast" },
+            { "food_id": "white_rice_cooked", "quantity": 1, "display": "200g white rice" },
+            { "food_id": "cottage_cheese", "quantity": 1, "display": "250g cottage cheese" }
+          ],
+          "macros": { "calories": 660, "protein": 70, "carbs": 75, "fats": 8 }
+        }
+      ],
+      "daily_totals": { "calories": 3000, "protein": 255, "carbs": 310, "fats": 77 }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "phases": [
+    {
+      "id": "bulk",
+      "name": "Lean Bulk",
+      "order": 1,
+      "targets": {
+        "start_weight": 184,
+        "goal_weight_min": 195,
+        "goal_weight_max": 200,
+        "calories": 2900,
+        "protein": 185,
+        "carbs": 350,
+        "fats": 80,
+        "weekly_rate": 0.5
+      },
+      "duration": {
+        "min_weeks": 32,
+        "max_weeks": 40
+      },
+      "transition": {
+        "trigger": "weight_reached",
+        "next_phase": "maintain"
+      },
+      "description": "Build muscle with controlled surplus"
+    },
+    {
+      "id": "maintain",
+      "name": "Maintenance",
+      "order": 2,
+      "targets": {
+        "start_weight": 195,
+        "goal_weight_min": 195,
+        "goal_weight_max": 200,
+        "calories": 2600,
+        "protein": 180,
+        "carbs": 310,
+        "fats": 70,
+        "weekly_rate": 0
+      },
+      "duration": {
+        "min_weeks": 4,
+        "max_weeks": 6
+      },
+      "transition": {
+        "trigger": "duration_reached",
+        "next_phase": "cut"
+      },
+      "description": "Stabilize new muscle, normalize hormones"
+    },
+    {
+      "id": "cut",
+      "name": "Cut",
+      "order": 3,
+      "targets": {
+        "start_weight": 195,
+        "goal_weight_min": 180,
+        "goal_weight_max": 185,
+        "calories": 2300,
+        "protein": 200,
+        "carbs": 200,
+        "fats": 65,
+        "weekly_rate": -1.0
+      },
+      "duration": {
+        "min_weeks": 10,
+        "max_weeks": 14
+      },
+      "transition": {
+        "trigger": "weight_reached",
+        "next_phase": "complete"
+      },
+      "description": "Lose fat while preserving muscle"
+    }
+  ],
+  "final_target": {
+    "weight_min": 180,
+    "weight_max": 185,
+    "body_fat_min": 10,
+    "body_fat_max": 12,
+    "lean_mass": 165,
+    "total_duration_months": "12-14"
+  }
+}

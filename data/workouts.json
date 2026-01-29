@@ -1,0 +1,701 @@
+{
+  "program": {
+    "name": "Arnold Split (Upper Body Focus)",
+    "days_per_cycle": 7,
+    "description": "Modified Arnold Split hitting Chest/Back, Shoulders/Abs, and Arms twice per week. Optimized for upper body hypertrophy using Arnold's training principles: high volume, antagonist supersets, full range of motion, and progressive overload."
+  },
+  "schedule": [
+    {
+      "day": 1,
+      "name": "Chest & Back A",
+      "focus": "Heavy/Strength",
+      "muscles": ["Chest", "Back", "Lats"],
+      "estimated_duration_minutes": 65,
+      "exercises": [
+        {
+          "name": "Flat Barbell Bench Press",
+          "sets": 5,
+          "reps": "6-8",
+          "rest_seconds": 180,
+          "type": "compound",
+          "progression": "heavy",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "Retract and depress shoulder blades",
+            "Slight arch in lower back",
+            "Bar touches lower chest",
+            "Drive feet into floor"
+          ]
+        },
+        {
+          "name": "Wide-Grip Pull-ups",
+          "sets": 5,
+          "reps": "6-10",
+          "rest_seconds": 150,
+          "type": "compound",
+          "progression": "heavy",
+          "muscle_group": "Back",
+          "form_cues": [
+            "Hands 6 inches wider than shoulders",
+            "Full dead hang at bottom",
+            "Pull chest to bar",
+            "Squeeze lats at top"
+          ]
+        },
+        {
+          "name": "Incline Barbell Bench Press",
+          "sets": 4,
+          "reps": "8-10",
+          "rest_seconds": 150,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "30-45 degree incline",
+            "Wide grip for chest emphasis",
+            "Touch upper chest",
+            "Full lockout at top"
+          ]
+        },
+        {
+          "name": "Bent-Over Barbell Rows",
+          "sets": 4,
+          "reps": "6-8",
+          "rest_seconds": 150,
+          "type": "compound",
+          "progression": "heavy",
+          "muscle_group": "Back",
+          "form_cues": [
+            "45-degree torso angle",
+            "Pull to lower chest",
+            "Squeeze shoulder blades together",
+            "Control the negative"
+          ]
+        },
+        {
+          "name": "Dumbbell Flyes",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "Deep stretch at bottom - elbows near floor",
+            "Slight bend in elbows throughout",
+            "Squeeze pecs hard at top",
+            "Arc motion, not press"
+          ]
+        },
+        {
+          "name": "T-Bar Rows",
+          "sets": 4,
+          "reps": "8-10",
+          "rest_seconds": 120,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Back",
+          "form_cues": [
+            "Chest supported if available",
+            "Pull to mid-torso",
+            "Focus on lat contraction",
+            "Don't round lower back"
+          ]
+        },
+        {
+          "name": "Dumbbell Pullovers",
+          "sets": 3,
+          "reps": "12-15",
+          "rest_seconds": 90,
+          "type": "compound",
+          "progression": "light",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "Lie across bench perpendicular",
+            "Deep stretch overhead",
+            "Feel chest and lats engage",
+            "Keep slight bend in elbows"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "name": "Shoulders & Abs A",
+      "focus": "Heavy/Strength",
+      "muscles": ["Shoulders", "Front Delts", "Side Delts", "Rear Delts", "Core"],
+      "estimated_duration_minutes": 60,
+      "exercises": [
+        {
+          "name": "Overhead Press",
+          "sets": 5,
+          "reps": "5-6",
+          "rest_seconds": 180,
+          "type": "compound",
+          "progression": "heavy",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Brace core tight",
+            "Bar path close to face",
+            "Full lockout overhead",
+            "Squeeze glutes for stability"
+          ]
+        },
+        {
+          "name": "Arnold Press",
+          "sets": 4,
+          "reps": "8-10",
+          "rest_seconds": 120,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Start palms facing you at chin",
+            "Rotate wrists as you press up",
+            "At top, palms face away",
+            "Full range of motion"
+          ]
+        },
+        {
+          "name": "Dumbbell Lateral Raises",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Lead with elbows, not hands",
+            "Slight forward lean",
+            "Stop at shoulder height",
+            "Control the negative"
+          ]
+        },
+        {
+          "name": "Face Pulls",
+          "sets": 4,
+          "reps": "15-20",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Rear Delts",
+          "form_cues": [
+            "Pull rope to face level",
+            "External rotation at end",
+            "Squeeze rear delts hard",
+            "High cable position"
+          ]
+        },
+        {
+          "name": "Barbell Upright Rows",
+          "sets": 3,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Wider grip reduces shoulder strain",
+            "Pull to chest level",
+            "Elbows above wrists at top",
+            "Don't go too heavy"
+          ]
+        },
+        {
+          "name": "Hanging Leg Raises",
+          "sets": 4,
+          "reps": "10-15",
+          "rest_seconds": 60,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Core",
+          "form_cues": [
+            "Dead hang from bar",
+            "Curl pelvis up, not just legs",
+            "Control the descent",
+            "Bend knees if needed"
+          ]
+        },
+        {
+          "name": "Cable Crunches",
+          "sets": 3,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Core",
+          "form_cues": [
+            "Kneel facing cable",
+            "Rope behind head stays fixed",
+            "Crunch by curling spine",
+            "Focus on abs, not hip flexors"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "name": "Arms A",
+      "focus": "Heavy/Strength",
+      "muscles": ["Biceps", "Triceps", "Forearms"],
+      "estimated_duration_minutes": 55,
+      "exercises": [
+        {
+          "name": "Close-Grip Bench Press",
+          "sets": 4,
+          "reps": "6-8",
+          "rest_seconds": 150,
+          "type": "compound",
+          "progression": "heavy",
+          "muscle_group": "Triceps",
+          "form_cues": [
+            "Hands shoulder-width apart",
+            "Elbows tucked at 45 degrees",
+            "Touch lower chest",
+            "Lock out fully at top"
+          ]
+        },
+        {
+          "name": "Barbell Curls",
+          "sets": 4,
+          "reps": "6-8",
+          "rest_seconds": 120,
+          "type": "compound",
+          "progression": "heavy",
+          "muscle_group": "Biceps",
+          "form_cues": [
+            "Keep elbows pinned to sides",
+            "Full extension at bottom",
+            "Squeeze hard at top",
+            "No swinging - strict form"
+          ]
+        },
+        {
+          "name": "Skull Crushers",
+          "sets": 4,
+          "reps": "8-10",
+          "rest_seconds": 120,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Triceps",
+          "form_cues": [
+            "Lower bar to forehead or behind",
+            "Keep elbows pointed up",
+            "Upper arms stationary",
+            "Feel tricep stretch"
+          ]
+        },
+        {
+          "name": "Incline Dumbbell Curls",
+          "sets": 4,
+          "reps": "8-10",
+          "rest_seconds": 90,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Biceps",
+          "form_cues": [
+            "45-degree incline bench",
+            "Arms hang straight down",
+            "Maximum stretch at bottom",
+            "Supinate wrist at top"
+          ]
+        },
+        {
+          "name": "Overhead Tricep Extension",
+          "sets": 3,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Triceps",
+          "form_cues": [
+            "Use dumbbell or EZ bar",
+            "Keep elbows pointed forward",
+            "Full stretch at bottom",
+            "Lock out at top"
+          ]
+        },
+        {
+          "name": "Preacher Curls",
+          "sets": 3,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Biceps",
+          "form_cues": [
+            "Armpits tight against pad",
+            "Don't go all the way down",
+            "Squeeze hard at top",
+            "Control the negative"
+          ]
+        },
+        {
+          "name": "Wrist Curls",
+          "sets": 3,
+          "reps": "15-20",
+          "rest_seconds": 45,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Forearms",
+          "form_cues": [
+            "Forearms on bench or thighs",
+            "Let bar roll to fingertips",
+            "Curl wrist up and squeeze",
+            "Both palms up and palms down"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "name": "Chest & Back B",
+      "focus": "Volume/Hypertrophy",
+      "muscles": ["Chest", "Back", "Lats"],
+      "estimated_duration_minutes": 65,
+      "exercises": [
+        {
+          "name": "Incline Dumbbell Press",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 120,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "30-degree incline optimal",
+            "Deep stretch at bottom",
+            "Press in arc motion",
+            "Squeeze chest at top"
+          ]
+        },
+        {
+          "name": "Lat Pulldowns",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Back",
+          "form_cues": [
+            "Wide grip, overhand",
+            "Pull to upper chest",
+            "Lean back slightly",
+            "Squeeze lats at bottom"
+          ]
+        },
+        {
+          "name": "Flat Dumbbell Press",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 120,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "Dumbbells lower deeper than barbell",
+            "Full stretch at bottom",
+            "Touch dumbbells at top",
+            "Constant tension"
+          ]
+        },
+        {
+          "name": "Seated Cable Rows",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Back",
+          "form_cues": [
+            "Close or wide grip",
+            "Pull to lower chest",
+            "Squeeze shoulder blades",
+            "Full stretch forward"
+          ]
+        },
+        {
+          "name": "Cable Crossover Flyes",
+          "sets": 4,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "High to low motion",
+            "Cross hands at bottom",
+            "Constant tension on pecs",
+            "Squeeze hard on contraction"
+          ]
+        },
+        {
+          "name": "Single-Arm Dumbbell Rows",
+          "sets": 3,
+          "reps": "12 each",
+          "rest_seconds": 60,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Back",
+          "form_cues": [
+            "Support hand on bench",
+            "Pull to hip level",
+            "Allow slight torso rotation",
+            "Full stretch at bottom"
+          ]
+        },
+        {
+          "name": "Straight-Arm Pulldowns",
+          "sets": 3,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Back",
+          "form_cues": [
+            "Keep arms nearly straight",
+            "Feel lats stretch at top",
+            "Pull to thighs",
+            "Squeeze lats hard"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "name": "Shoulders & Abs B",
+      "focus": "Volume/Hypertrophy",
+      "muscles": ["Shoulders", "Front Delts", "Side Delts", "Rear Delts", "Core"],
+      "estimated_duration_minutes": 60,
+      "exercises": [
+        {
+          "name": "Seated Dumbbell Shoulder Press",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 120,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Slight back support",
+            "Neutral or angled grip",
+            "Full range of motion",
+            "Don't lock elbows aggressively"
+          ]
+        },
+        {
+          "name": "Cable Lateral Raises",
+          "sets": 4,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Cable provides constant tension",
+            "Lead with elbow",
+            "Pause at top",
+            "Slow negative"
+          ]
+        },
+        {
+          "name": "Rear Delt Flyes",
+          "sets": 4,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Rear Delts",
+          "form_cues": [
+            "Bent over or machine",
+            "Lead with elbows out",
+            "Squeeze rear delts at top",
+            "Control throughout"
+          ]
+        },
+        {
+          "name": "Front Raises",
+          "sets": 3,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Alternate arms or together",
+            "Stop at shoulder height",
+            "Slight bend in elbow",
+            "No swinging"
+          ]
+        },
+        {
+          "name": "Shrugs",
+          "sets": 4,
+          "reps": "12-15",
+          "rest_seconds": 90,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Shoulders",
+          "form_cues": [
+            "Pull shoulders to ears",
+            "Hold at top for 2 seconds",
+            "No rolling motion needed",
+            "Heavy weight is fine"
+          ]
+        },
+        {
+          "name": "Ab Wheel Rollouts",
+          "sets": 3,
+          "reps": "10-12",
+          "rest_seconds": 60,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Core",
+          "form_cues": [
+            "Start from knees",
+            "Keep core braced",
+            "Roll out as far as possible",
+            "Don't let hips sag"
+          ]
+        },
+        {
+          "name": "Decline Crunches",
+          "sets": 3,
+          "reps": "15-20",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Core",
+          "form_cues": [
+            "Hands across chest or behind head",
+            "Curl spine, don't sit up",
+            "Pause and squeeze at top",
+            "Add weight plate when easy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "name": "Arms B",
+      "focus": "Volume/Hypertrophy",
+      "muscles": ["Biceps", "Triceps", "Forearms"],
+      "estimated_duration_minutes": 55,
+      "exercises": [
+        {
+          "name": "EZ-Bar Curls",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Biceps",
+          "form_cues": [
+            "Angled grip easier on wrists",
+            "Keep elbows stationary",
+            "Full range of motion",
+            "Squeeze at top"
+          ]
+        },
+        {
+          "name": "Tricep Pushdowns",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Triceps",
+          "form_cues": [
+            "Rope or straight bar",
+            "Elbows pinned at sides",
+            "Full extension at bottom",
+            "Spread rope at bottom if using"
+          ]
+        },
+        {
+          "name": "Hammer Curls",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Biceps",
+          "form_cues": [
+            "Neutral grip throughout",
+            "Targets brachialis",
+            "Can do alternating or together",
+            "Control the negative"
+          ]
+        },
+        {
+          "name": "Dips (Tricep Focus)",
+          "sets": 4,
+          "reps": "10-12",
+          "rest_seconds": 120,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Triceps",
+          "form_cues": [
+            "Stay upright for tricep emphasis",
+            "Go to 90 degrees or slightly below",
+            "Lock out at top",
+            "Add weight when possible"
+          ]
+        },
+        {
+          "name": "Concentration Curls",
+          "sets": 3,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Biceps",
+          "form_cues": [
+            "Elbow braced on inner thigh",
+            "Full stretch at bottom",
+            "Rotate wrist slightly at top",
+            "Peak contraction focus"
+          ]
+        },
+        {
+          "name": "Cable Overhead Tricep Extension",
+          "sets": 3,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Triceps",
+          "form_cues": [
+            "Face away from cable",
+            "Deep stretch at bottom",
+            "Lock out and squeeze",
+            "Constant cable tension"
+          ]
+        },
+        {
+          "name": "Reverse Curls",
+          "sets": 3,
+          "reps": "12-15",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "light",
+          "muscle_group": "Forearms",
+          "form_cues": [
+            "Overhand grip on bar",
+            "Targets brachioradialis",
+            "Keep wrists straight",
+            "Don't go too heavy"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "name": "Rest",
+      "focus": "Recovery",
+      "muscles": [],
+      "estimated_duration_minutes": 0,
+      "exercises": []
+    }
+  ]
+}
