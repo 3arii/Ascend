@@ -110,11 +110,11 @@
       "name": "Shoulders & Abs A",
       "focus": "Heavy/Strength",
       "muscles": ["Shoulders", "Front Delts", "Side Delts", "Rear Delts", "Core"],
-      "estimated_duration_minutes": 60,
+      "estimated_duration_minutes": 45,
       "exercises": [
         {
           "name": "Overhead Press",
-          "sets": 5,
+          "sets": 4,
           "reps": "5-6",
           "rest_seconds": 180,
           "type": "compound",
@@ -129,9 +129,9 @@
         },
         {
           "name": "Arnold Press",
-          "sets": 4,
+          "sets": 3,
           "reps": "8-10",
-          "rest_seconds": 120,
+          "rest_seconds": 90,
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Shoulders",
@@ -144,8 +144,8 @@
         },
         {
           "name": "Dumbbell Lateral Raises",
-          "sets": 4,
-          "reps": "10-12",
+          "sets": 3,
+          "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
           "progression": "moderate",
@@ -159,7 +159,7 @@
         },
         {
           "name": "Face Pulls",
-          "sets": 4,
+          "sets": 3,
           "reps": "15-20",
           "rest_seconds": 60,
           "type": "isolation",
@@ -173,24 +173,9 @@
           ]
         },
         {
-          "name": "Barbell Upright Rows",
-          "sets": 3,
-          "reps": "10-12",
-          "rest_seconds": 90,
-          "type": "compound",
-          "progression": "moderate",
-          "muscle_group": "Shoulders",
-          "form_cues": [
-            "Wider grip reduces shoulder strain",
-            "Pull to chest level",
-            "Elbows above wrists at top",
-            "Don't go too heavy"
-          ]
-        },
-        {
           "name": "Hanging Leg Raises",
-          "sets": 4,
-          "reps": "10-15",
+          "sets": 3,
+          "reps": "12-15",
           "rest_seconds": 60,
           "type": "compound",
           "progression": "moderate",
@@ -204,7 +189,7 @@
         },
         {
           "name": "Cable Crunches",
-          "sets": 3,
+          "sets": 2,
           "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
@@ -224,13 +209,13 @@
       "name": "Arms A",
       "focus": "Heavy/Strength",
       "muscles": ["Biceps", "Triceps", "Forearms"],
-      "estimated_duration_minutes": 55,
+      "estimated_duration_minutes": 40,
       "exercises": [
         {
           "name": "Close-Grip Bench Press",
-          "sets": 4,
+          "sets": 3,
           "reps": "6-8",
-          "rest_seconds": 150,
+          "rest_seconds": 120,
           "type": "compound",
           "progression": "heavy",
           "muscle_group": "Triceps",
@@ -243,9 +228,9 @@
         },
         {
           "name": "Barbell Curls",
-          "sets": 4,
+          "sets": 3,
           "reps": "6-8",
-          "rest_seconds": 120,
+          "rest_seconds": 90,
           "type": "compound",
           "progression": "heavy",
           "muscle_group": "Biceps",
@@ -258,9 +243,9 @@
         },
         {
           "name": "Skull Crushers",
-          "sets": 4,
+          "sets": 3,
           "reps": "8-10",
-          "rest_seconds": 120,
+          "rest_seconds": 90,
           "type": "isolation",
           "progression": "moderate",
           "muscle_group": "Triceps",
@@ -273,9 +258,9 @@
         },
         {
           "name": "Incline Dumbbell Curls",
-          "sets": 4,
+          "sets": 3,
           "reps": "8-10",
-          "rest_seconds": 90,
+          "rest_seconds": 60,
           "type": "isolation",
           "progression": "moderate",
           "muscle_group": "Biceps",
@@ -287,48 +272,33 @@
           ]
         },
         {
-          "name": "Overhead Tricep Extension",
-          "sets": 3,
+          "name": "Tricep Pushdowns",
+          "sets": 2,
           "reps": "10-12",
-          "rest_seconds": 90,
+          "rest_seconds": 60,
           "type": "isolation",
           "progression": "moderate",
           "muscle_group": "Triceps",
           "form_cues": [
-            "Use dumbbell or EZ bar",
-            "Keep elbows pointed forward",
-            "Full stretch at bottom",
-            "Lock out at top"
+            "Rope or straight bar",
+            "Elbows pinned at sides",
+            "Full extension at bottom",
+            "Spread rope at bottom if using"
           ]
         },
         {
-          "name": "Preacher Curls",
-          "sets": 3,
+          "name": "Hammer Curls",
+          "sets": 2,
           "reps": "10-12",
-          "rest_seconds": 90,
+          "rest_seconds": 60,
           "type": "isolation",
           "progression": "moderate",
           "muscle_group": "Biceps",
           "form_cues": [
-            "Armpits tight against pad",
-            "Don't go all the way down",
-            "Squeeze hard at top",
+            "Neutral grip throughout",
+            "Targets brachialis",
+            "Can do alternating or together",
             "Control the negative"
-          ]
-        },
-        {
-          "name": "Wrist Curls",
-          "sets": 3,
-          "reps": "15-20",
-          "rest_seconds": 45,
-          "type": "isolation",
-          "progression": "light",
-          "muscle_group": "Forearms",
-          "form_cues": [
-            "Forearms on bench or thighs",
-            "Let bar roll to fingertips",
-            "Curl wrist up and squeeze",
-            "Both palms up and palms down"
           ]
         }
       ]
@@ -437,13 +407,13 @@
       "name": "Shoulders & Abs B",
       "focus": "Volume/Hypertrophy",
       "muscles": ["Shoulders", "Front Delts", "Side Delts", "Rear Delts", "Core"],
-      "estimated_duration_minutes": 60,
+      "estimated_duration_minutes": 40,
       "exercises": [
         {
           "name": "Seated Dumbbell Shoulder Press",
-          "sets": 4,
+          "sets": 3,
           "reps": "10-12",
-          "rest_seconds": 120,
+          "rest_seconds": 90,
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Shoulders",
@@ -456,7 +426,7 @@
         },
         {
           "name": "Cable Lateral Raises",
-          "sets": 4,
+          "sets": 3,
           "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
@@ -471,7 +441,7 @@
         },
         {
           "name": "Rear Delt Flyes",
-          "sets": 4,
+          "sets": 3,
           "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
@@ -485,25 +455,10 @@
           ]
         },
         {
-          "name": "Front Raises",
+          "name": "Shrugs",
           "sets": 3,
           "reps": "12-15",
           "rest_seconds": 60,
-          "type": "isolation",
-          "progression": "light",
-          "muscle_group": "Shoulders",
-          "form_cues": [
-            "Alternate arms or together",
-            "Stop at shoulder height",
-            "Slight bend in elbow",
-            "No swinging"
-          ]
-        },
-        {
-          "name": "Shrugs",
-          "sets": 4,
-          "reps": "12-15",
-          "rest_seconds": 90,
           "type": "isolation",
           "progression": "moderate",
           "muscle_group": "Shoulders",
@@ -531,7 +486,7 @@
         },
         {
           "name": "Decline Crunches",
-          "sets": 3,
+          "sets": 2,
           "reps": "15-20",
           "rest_seconds": 60,
           "type": "isolation",
@@ -551,13 +506,13 @@
       "name": "Arms B",
       "focus": "Volume/Hypertrophy",
       "muscles": ["Biceps", "Triceps", "Forearms"],
-      "estimated_duration_minutes": 55,
+      "estimated_duration_minutes": 40,
       "exercises": [
         {
           "name": "EZ-Bar Curls",
-          "sets": 4,
+          "sets": 3,
           "reps": "10-12",
-          "rest_seconds": 90,
+          "rest_seconds": 60,
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Biceps",
@@ -569,40 +524,10 @@
           ]
         },
         {
-          "name": "Tricep Pushdowns",
-          "sets": 4,
-          "reps": "10-12",
-          "rest_seconds": 90,
-          "type": "isolation",
-          "progression": "moderate",
-          "muscle_group": "Triceps",
-          "form_cues": [
-            "Rope or straight bar",
-            "Elbows pinned at sides",
-            "Full extension at bottom",
-            "Spread rope at bottom if using"
-          ]
-        },
-        {
-          "name": "Hammer Curls",
-          "sets": 4,
-          "reps": "10-12",
-          "rest_seconds": 90,
-          "type": "isolation",
-          "progression": "moderate",
-          "muscle_group": "Biceps",
-          "form_cues": [
-            "Neutral grip throughout",
-            "Targets brachialis",
-            "Can do alternating or together",
-            "Control the negative"
-          ]
-        },
-        {
           "name": "Dips (Tricep Focus)",
-          "sets": 4,
+          "sets": 3,
           "reps": "10-12",
-          "rest_seconds": 120,
+          "rest_seconds": 90,
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Triceps",
@@ -615,8 +540,38 @@
           ]
         },
         {
-          "name": "Concentration Curls",
+          "name": "Preacher Curls",
           "sets": 3,
+          "reps": "10-12",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Biceps",
+          "form_cues": [
+            "Armpits tight against pad",
+            "Don't go all the way down",
+            "Squeeze hard at top",
+            "Control the negative"
+          ]
+        },
+        {
+          "name": "Overhead Tricep Extension",
+          "sets": 3,
+          "reps": "10-12",
+          "rest_seconds": 60,
+          "type": "isolation",
+          "progression": "moderate",
+          "muscle_group": "Triceps",
+          "form_cues": [
+            "Use dumbbell or cable",
+            "Keep elbows pointed forward",
+            "Full stretch at bottom",
+            "Lock out at top"
+          ]
+        },
+        {
+          "name": "Concentration Curls",
+          "sets": 2,
           "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
@@ -630,33 +585,18 @@
           ]
         },
         {
-          "name": "Cable Overhead Tricep Extension",
-          "sets": 3,
+          "name": "Tricep Kickbacks",
+          "sets": 2,
           "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
           "progression": "light",
           "muscle_group": "Triceps",
           "form_cues": [
-            "Face away from cable",
-            "Deep stretch at bottom",
-            "Lock out and squeeze",
-            "Constant cable tension"
-          ]
-        },
-        {
-          "name": "Reverse Curls",
-          "sets": 3,
-          "reps": "12-15",
-          "rest_seconds": 60,
-          "type": "isolation",
-          "progression": "light",
-          "muscle_group": "Forearms",
-          "form_cues": [
-            "Overhand grip on bar",
-            "Targets brachioradialis",
-            "Keep wrists straight",
-            "Don't go too heavy"
+            "Bent over, upper arm parallel to floor",
+            "Extend fully and squeeze",
+            "Keep elbow stationary",
+            "Control the movement"
           ]
         }
       ]
