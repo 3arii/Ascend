@@ -33,6 +33,7 @@ export default function SettingsPage() {
   const [wakeTime, setWakeTime] = useState('06:00');
   const [workoutTime, setWorkoutTime] = useState('07:00');
   const [workoutTimeWeekend, setWorkoutTimeWeekend] = useState('09:00');
+  const [programStartDate, setProgramStartDate] = useState('');
 
   useEffect(() => {
     fetch('/api/settings')
@@ -43,6 +44,7 @@ export default function SettingsPage() {
         setWakeTime(data.wake_time);
         setWorkoutTime(data.workout_time || '07:00');
         setWorkoutTimeWeekend(data.workout_time_weekend || '09:00');
+        setProgramStartDate(data.program_start_date || '');
         setLoading(false);
       })
       .catch(err => {
@@ -62,6 +64,7 @@ export default function SettingsPage() {
           wake_time: wakeTime,
           workout_time: workoutTime,
           workout_time_weekend: workoutTimeWeekend,
+          program_start_date: programStartDate,
         }),
       });
       const data = await res.json();
@@ -120,12 +123,16 @@ export default function SettingsPage() {
               <p className="text-sm text-zinc-400">Current Weight</p>
               <p className="text-lg font-medium">{settings?.current_weight || 184} lbs</p>
             </div>
-            <div>
-              <p className="text-sm text-zinc-400">Start Date</p>
-              <p className="text-lg font-medium">
-                {settings?.program_start_date
-                  ? new Date(settings.program_start_date).toLocaleDateString()
-                  : '--'}
+            <div className="col-span-2">
+              <label className="block text-sm text-zinc-400 mb-2">Program Start Date</label>
+              <input
+                type="date"
+                value={programStartDate}
+                onChange={e => setProgramStartDate(e.target.value)}
+                className="w-full bg-zinc-800 rounded-xl px-4 py-3 text-lg"
+              />
+              <p className="text-xs text-zinc-500 mt-1">
+                Day 1 of your workout cycle. Adjust if you need to sync your schedule.
               </p>
             </div>
           </div>
