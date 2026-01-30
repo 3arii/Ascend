@@ -10,12 +10,12 @@
       "name": "Chest & Back A",
       "focus": "Heavy/Strength",
       "muscles": ["Chest", "Back", "Lats"],
-      "estimated_duration_minutes": 65,
+      "estimated_duration_minutes": 50,
       "exercises": [
         {
           "name": "Flat Barbell Bench Press",
-          "sets": 5,
-          "reps": "6-8",
+          "sets": 4,
+          "reps": "5-6",
           "rest_seconds": 180,
           "type": "compound",
           "progression": "heavy",
@@ -29,8 +29,8 @@
         },
         {
           "name": "Wide-Grip Pull-ups",
-          "sets": 5,
-          "reps": "6-10",
+          "sets": 4,
+          "reps": "5-8",
           "rest_seconds": 150,
           "type": "compound",
           "progression": "heavy",
@@ -44,25 +44,25 @@
           ]
         },
         {
-          "name": "Incline Barbell Bench Press",
-          "sets": 4,
+          "name": "Incline Dumbbell Press",
+          "sets": 3,
           "reps": "8-10",
-          "rest_seconds": 150,
+          "rest_seconds": 90,
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Chest",
           "form_cues": [
-            "30-45 degree incline",
-            "Wide grip for chest emphasis",
-            "Touch upper chest",
-            "Full lockout at top"
+            "30-degree incline optimal",
+            "Deep stretch at bottom",
+            "Press in arc motion",
+            "Squeeze chest at top"
           ]
         },
         {
           "name": "Bent-Over Barbell Rows",
-          "sets": 4,
+          "sets": 3,
           "reps": "6-8",
-          "rest_seconds": 150,
+          "rest_seconds": 120,
           "type": "compound",
           "progression": "heavy",
           "muscle_group": "Back",
@@ -75,9 +75,9 @@
         },
         {
           "name": "Dumbbell Flyes",
-          "sets": 4,
+          "sets": 2,
           "reps": "10-12",
-          "rest_seconds": 90,
+          "rest_seconds": 60,
           "type": "isolation",
           "progression": "moderate",
           "muscle_group": "Chest",
@@ -89,33 +89,18 @@
           ]
         },
         {
-          "name": "T-Bar Rows",
-          "sets": 4,
-          "reps": "8-10",
-          "rest_seconds": 120,
+          "name": "Lat Pulldowns",
+          "sets": 2,
+          "reps": "10-12",
+          "rest_seconds": 60,
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Back",
           "form_cues": [
-            "Chest supported if available",
-            "Pull to mid-torso",
-            "Focus on lat contraction",
-            "Don't round lower back"
-          ]
-        },
-        {
-          "name": "Dumbbell Pullovers",
-          "sets": 3,
-          "reps": "12-15",
-          "rest_seconds": 90,
-          "type": "compound",
-          "progression": "light",
-          "muscle_group": "Chest",
-          "form_cues": [
-            "Lie across bench perpendicular",
-            "Deep stretch overhead",
-            "Feel chest and lats engage",
-            "Keep slight bend in elbows"
+            "Wide grip, overhand",
+            "Pull to upper chest",
+            "Lean back slightly",
+            "Squeeze lats at bottom"
           ]
         }
       ]
@@ -353,13 +338,13 @@
       "name": "Chest & Back B",
       "focus": "Volume/Hypertrophy",
       "muscles": ["Chest", "Back", "Lats"],
-      "estimated_duration_minutes": 65,
+      "estimated_duration_minutes": 45,
       "exercises": [
         {
           "name": "Incline Dumbbell Press",
-          "sets": 4,
+          "sets": 3,
           "reps": "10-12",
-          "rest_seconds": 120,
+          "rest_seconds": 90,
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Chest",
@@ -371,38 +356,8 @@
           ]
         },
         {
-          "name": "Lat Pulldowns",
-          "sets": 4,
-          "reps": "10-12",
-          "rest_seconds": 90,
-          "type": "compound",
-          "progression": "moderate",
-          "muscle_group": "Back",
-          "form_cues": [
-            "Wide grip, overhand",
-            "Pull to upper chest",
-            "Lean back slightly",
-            "Squeeze lats at bottom"
-          ]
-        },
-        {
-          "name": "Flat Dumbbell Press",
-          "sets": 4,
-          "reps": "10-12",
-          "rest_seconds": 120,
-          "type": "compound",
-          "progression": "moderate",
-          "muscle_group": "Chest",
-          "form_cues": [
-            "Dumbbells lower deeper than barbell",
-            "Full stretch at bottom",
-            "Touch dumbbells at top",
-            "Constant tension"
-          ]
-        },
-        {
           "name": "Seated Cable Rows",
-          "sets": 4,
+          "sets": 3,
           "reps": "10-12",
           "rest_seconds": 90,
           "type": "compound",
@@ -416,8 +371,38 @@
           ]
         },
         {
+          "name": "Flat Dumbbell Press",
+          "sets": 3,
+          "reps": "10-12",
+          "rest_seconds": 90,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Chest",
+          "form_cues": [
+            "Dumbbells lower deeper than barbell",
+            "Full stretch at bottom",
+            "Touch dumbbells at top",
+            "Constant tension"
+          ]
+        },
+        {
+          "name": "Single-Arm Dumbbell Rows",
+          "sets": 3,
+          "reps": "10-12 each",
+          "rest_seconds": 60,
+          "type": "compound",
+          "progression": "moderate",
+          "muscle_group": "Back",
+          "form_cues": [
+            "Support hand on bench",
+            "Pull to hip level",
+            "Allow slight torso rotation",
+            "Full stretch at bottom"
+          ]
+        },
+        {
           "name": "Cable Crossover Flyes",
-          "sets": 4,
+          "sets": 2,
           "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
@@ -431,23 +416,8 @@
           ]
         },
         {
-          "name": "Single-Arm Dumbbell Rows",
-          "sets": 3,
-          "reps": "12 each",
-          "rest_seconds": 60,
-          "type": "compound",
-          "progression": "moderate",
-          "muscle_group": "Back",
-          "form_cues": [
-            "Support hand on bench",
-            "Pull to hip level",
-            "Allow slight torso rotation",
-            "Full stretch at bottom"
-          ]
-        },
-        {
           "name": "Straight-Arm Pulldowns",
-          "sets": 3,
+          "sets": 2,
           "reps": "12-15",
           "rest_seconds": 60,
           "type": "isolation",
