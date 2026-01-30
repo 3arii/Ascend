@@ -10,11 +10,11 @@
       "name": "Chest & Back A",
       "focus": "Heavy/Strength",
       "muscles": ["Chest", "Back", "Lats"],
-      "estimated_duration_minutes": 50,
+      "estimated_duration_minutes": 55,
       "exercises": [
         {
           "name": "Flat Barbell Bench Press",
-          "sets": 4,
+          "sets": 5,
           "reps": "5-6",
           "rest_seconds": 180,
           "type": "compound",
@@ -29,7 +29,7 @@
         },
         {
           "name": "Wide-Grip Pull-ups",
-          "sets": 4,
+          "sets": 5,
           "reps": "5-8",
           "rest_seconds": 150,
           "type": "compound",
@@ -59,18 +59,18 @@
           ]
         },
         {
-          "name": "Bent-Over Barbell Rows",
+          "name": "T-Bar Rows",
           "sets": 3,
-          "reps": "6-8",
-          "rest_seconds": 120,
+          "reps": "8-10",
+          "rest_seconds": 90,
           "type": "compound",
-          "progression": "heavy",
+          "progression": "moderate",
           "muscle_group": "Back",
           "form_cues": [
-            "45-degree torso angle",
-            "Pull to lower chest",
-            "Squeeze shoulder blades together",
-            "Control the negative"
+            "Chest supported if available",
+            "Pull to mid-torso",
+            "Focus on lat contraction",
+            "Don't round lower back"
           ]
         },
         {
