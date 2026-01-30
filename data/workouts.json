@@ -35,6 +35,7 @@
           "type": "compound",
           "progression": "heavy",
           "muscle_group": "Back",
+          "assisted": true,
           "form_cues": [
             "Hands 6 inches wider than shoulders",
             "Full dead hang at bottom",
@@ -635,11 +636,12 @@
           "type": "compound",
           "progression": "moderate",
           "muscle_group": "Triceps",
+          "assisted": true,
           "form_cues": [
             "Stay upright for tricep emphasis",
             "Go to 90 degrees or slightly below",
             "Lock out at top",
-            "Add weight when possible"
+            "Reduce assist weight as you progress"
           ]
         },
         {

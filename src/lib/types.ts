@@ -189,6 +189,7 @@ export interface Exercise {
   progression: 'heavy' | 'moderate' | 'light';
   muscle_group: string;
   form_cues: string[];
+  assisted?: boolean; // For exercises like assisted pull-ups where weight = assist weight (lower = harder)
 }
 
 export interface MealPlan {

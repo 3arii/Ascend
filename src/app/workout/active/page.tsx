@@ -479,11 +479,15 @@ function ActiveWorkoutContent() {
       <Modal
         isOpen={showMaxPrompt && !isResting}
         onClose={() => {}}
-        title={`Set Starting Weight`}
+        title={currentExercise?.assisted ? 'Set Starting Assist Weight' : 'Set Starting Weight'}
       >
         <div className="space-y-4">
           <p className="text-zinc-400">
-            What weight do you typically use for <strong>{maxPromptExercise}</strong>?
+            {currentExercise?.assisted ? (
+              <>What assist weight do you typically use for <strong>{maxPromptExercise}</strong>? (0 = bodyweight)</>
+            ) : (
+              <>What weight do you typically use for <strong>{maxPromptExercise}</strong>?</>
+            )}
           </p>
           <NumberInput
             value={initialWeight}
@@ -494,12 +498,17 @@ function ActiveWorkoutContent() {
             unit="lbs"
             size="lg"
           />
+          {currentExercise?.assisted && (
+            <p className="text-xs text-zinc-500 text-center">
+              Lower assist weight = harder. Set to 0 if doing unassisted.
+            </p>
+          )}
           <Button
             onClick={handleSetMax}
             disabled={initialWeight < 0}
             className="w-full"
           >
-            Set Weight
+            {currentExercise?.assisted ? 'Set Assist Weight' : 'Set Weight'}
           </Button>
         </div>
       </Modal>
@@ -587,6 +596,28 @@ function ActiveWorkoutContent() {
 
           {/* Progressive Overload Suggestion */}
           {(() => {
+            // For assisted exercises, show different guidance
+            if (currentExercise.assisted) {
+              const lastWeight = exerciseMaxes[currentExercise.name]?.last_working_weight;
+              if (lastWeight != null) {
+                return (
+                  <div className="p-3 rounded-lg bg-zinc-800/50 border border-zinc-700">
+                    <div className="flex items-start gap-2">
+                      <span className="text-lg">💪</span>
+                      <div>
+                        <p className="text-sm font-medium text-zinc-300">Assisted Exercise</p>
+                        <p className="text-xs text-zinc-400 mt-0.5">
+                          Last assist: {lastWeight === 0 ? 'Bodyweight' : `${lastWeight} lbs`}.
+                          {lastWeight > 0 ? ' Try reducing assist by 5-10 lbs when ready.' : ' Great job doing bodyweight!'}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              }
+              return null;
+            }
+
             const suggestion = getProgressiveOverloadSuggestion(
               exerciseMaxes[currentExercise.name],
               currentExercise,
@@ -637,7 +668,9 @@ function ActiveWorkoutContent() {
 
           {/* Weight Input */}
           <div>
-            <label className="block text-sm text-zinc-400 mb-2 text-center">Weight</label>
+            <label className="block text-sm text-zinc-400 mb-2 text-center">
+              {currentExercise.assisted ? 'Assist Weight' : 'Weight'}
+            </label>
             <NumberInput
               value={weight}
               onChange={setWeight}
@@ -647,6 +680,11 @@ function ActiveWorkoutContent() {
               unit="lbs"
               size="lg"
             />
+            {currentExercise.assisted && (
+              <p className="text-xs text-zinc-500 text-center mt-2">
+                0 = bodyweight (no assist). Lower assist = harder.
+              </p>
+            )}
           </div>
 
           {/* Reps Input */}
@@ -697,8 +735,8 @@ function ActiveWorkoutContent() {
             </p>
           </div>
 
-          {/* Intensity Zone Display */}
-          {exerciseMaxes[currentExercise.name]?.one_rep_max && weight > 0 && (
+          {/* Intensity Zone Display - only for non-assisted exercises */}
+          {!currentExercise.assisted && exerciseMaxes[currentExercise.name]?.one_rep_max && weight > 0 && (
             <div className="text-center py-2 px-3 bg-zinc-800/50 rounded-lg">
               <p className="text-xs text-zinc-400">
                 Training at {Math.round((weight / exerciseMaxes[currentExercise.name].one_rep_max!) * 100)}% of 1RM
@@ -730,7 +768,12 @@ function ActiveWorkoutContent() {
                       key={i}
                       className="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm"
                     >
-                      {s.actual_weight}×{s.actual_reps}
+                      {currentExercise.assisted && s.actual_weight === 0
+                        ? `BW×${s.actual_reps}`
+                        : currentExercise.assisted
+                          ? `${s.actual_weight}assist×${s.actual_reps}`
+                          : `${s.actual_weight}×${s.actual_reps}`
+                      }
                     </span>
                   ))}
               </div>
